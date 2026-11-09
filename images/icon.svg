@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Gym Gear Guide icon</title>
+  <desc id="desc">The letters GG with a simple bar shape.</desc>
+  <rect width="512" height="512" fill="#0d2f25"/>
+  <rect x="76" y="76" width="360" height="360" fill="#f0ce65"/>
+  <path d="M130 178h62v156h-62zm190 0h62v156h-62zM192 225h128v62H192z" fill="#0d2f25"/>
+  <circle cx="130" cy="256" r="42" fill="#0d2f25"/>
+  <circle cx="382" cy="256" r="42" fill="#0d2f25"/>
+</svg>
+

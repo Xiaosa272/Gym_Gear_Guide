@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Equipment | Gym Gear Guide</title>
+  <meta name="description" content="Compare six common gym equipment choices for cardio and strength training.">
+  <meta property="og:title" content="Gym Gear Guide">
+  <meta property="og:description" content="Choose the right equipment and make a simple training plan.">
+  <meta property="og:image" content="https://YOUR-GITHUB-NAME.github.io/gym-gear-guide/images/og-image.jpg">
+  <meta property="og:url" content="https://YOUR-GITHUB-NAME.github.io/gym-gear-guide/equipment.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">GG</span>Gym Gear Guide</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="equipment.html" aria-current="page">Equipment</a></li>
+          <li><a href="planner.html">Plan a Visit</a></li>
+          <li><a href="safety.html">Gym Safety</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="page-width">
+        <p class="eyebrow">Know the Machines</p>
+        <h1>Choose the right equipment.</h1>
+        <p>Use the buttons to show all equipment, cardio choices or strength choices.</p>
+      </div>
+    </header>
+
+    <section class="section light">
+      <div class="page-width">
+        <div class="filter-row" aria-label="Equipment filters">
+          <button class="active" type="button" data-filter="all">All Equipment</button>
+          <button type="button" data-filter="cardio">Cardio</button>
+          <button type="button" data-filter="strength">Strength</button>
+        </div>
+        <div class="card-grid" id="equipment-list">
+          <article class="card equipment-card" data-area="cardio">
+            <span class="tag">Cardio</span>
+            <h2>Treadmill 1</h2>
+            <p>Use it for walking or running. Start slowly and raise the speed one step at a time.</p>
+            <p class="price">Example price: ¥30 / hour</p>
+          </article>
+          <article class="card equipment-card" data-area="cardio">
+            <span class="tag">Cardio</span>
+            <h2>Treadmill 2</h2>
+            <p>Use it when the first treadmill is busy. Keep your eyes forward while you run.</p>
+            <p class="price">Example price: ¥30 / hour</p>
+          </article>
+          <article class="card equipment-card" data-area="cardio">
+            <span class="tag">Cardio</span>
+            <h2>Exercise Bike</h2>
+            <p>Use it for a lower body warm-up. Set the seat before you begin.</p>
+            <p class="price">Example price: ¥20 / hour</p>
+          </article>
+          <article class="card equipment-card" data-area="cardio">
+            <span class="tag">Cardio</span>
+            <h2>Rowing Machine</h2>
+            <p>Use your legs first, then pull with your arms. Return in a smooth way.</p>
+            <p class="price">Example price: ¥25 / hour</p>
+          </article>
+          <article class="card equipment-card" data-area="strength">
+            <span class="tag">Strength</span>
+            <h2>Bench Press</h2>
+            <p>Use a light weight first. Ask a partner to help when the weight is heavy.</p>
+            <p class="price">Example price: ¥35 / hour</p>
+          </article>
+          <article class="card equipment-card" data-area="strength">
+            <span class="tag">Strength</span>
+            <h2>Dumbbell Station</h2>
+            <p>Choose a weight you can control. Put every dumbbell back after use.</p>
+            <p class="price">Example price: ¥20 / hour</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-grid">
+      <p><strong>Gym Gear Guide</strong><br>A Web Technologies personal project.</p>
+      <p><a href="planner.html">Build a training plan →</a></p>
+    </div>
+  </footer>
+</body>
+</html>
+

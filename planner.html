@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan a Visit | Gym Gear Guide</title>
+  <meta name="description" content="Build a simple gym equipment plan without saving or sending any personal data.">
+  <meta property="og:title" content="Gym Gear Guide">
+  <meta property="og:description" content="Choose the right equipment and make a simple training plan.">
+  <meta property="og:image" content="https://YOUR-GITHUB-NAME.github.io/gym-gear-guide/images/og-image.jpg">
+  <meta property="og:url" content="https://YOUR-GITHUB-NAME.github.io/gym-gear-guide/planner.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">GG</span>Gym Gear Guide</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="equipment.html">Equipment</a></li>
+          <li><a href="planner.html" aria-current="page">Plan a Visit</a></li>
+          <li><a href="safety.html">Gym Safety</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="page-width">
+        <p class="eyebrow">Interactive Planner</p>
+        <h1>Build a simple session.</h1>
+        <p>Choose four things. The page will show a time, a goal and an example cost.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="page-width planner-grid">
+        <form class="planner-form" id="planner-form">
+          <div class="field">
+            <label for="equipment">Equipment</label>
+            <select id="equipment" name="equipment">
+              <option data-price="30">Treadmill 1</option>
+              <option data-price="30">Treadmill 2</option>
+              <option data-price="20">Exercise Bike</option>
+              <option data-price="25">Rowing Machine</option>
+              <option data-price="35">Bench Press</option>
+              <option data-price="20">Dumbbell Station</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="time">Start time</label>
+            <select id="time" name="time">
+              <option value="8">08:00</option>
+              <option value="9">09:00</option>
+              <option value="10">10:00</option>
+              <option value="18">18:00</option>
+              <option value="19">19:00</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="hours">Length</label>
+            <select id="hours" name="hours">
+              <option value="1">1 hour</option>
+              <option value="2">2 hours</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="goal">Training goal</label>
+            <select id="goal" name="goal">
+              <option>Cardio</option>
+              <option>Strength</option>
+              <option>Warm up</option>
+            </select>
+          </div>
+          <div class="button-row">
+            <button type="submit">Build My Plan</button>
+            <button type="reset">Start Again</button>
+          </div>
+        </form>
+
+        <section class="plan-result" aria-live="polite">
+          <p class="eyebrow">Your Result</p>
+          <h2 id="result-title">Your plan will appear here</h2>
+          <p id="result-time">Choose the equipment, time, hours and goal.</p>
+          <p class="result-value" id="result-cost">¥0</p>
+          <p class="result-note" id="result-note">This tool only makes a plan. It does not save or send any data.</p>
+        </section>
+      </div>
+      <div class="page-width">
+        <p class="notice"><strong>Important:</strong> This is a planning tool for a class website. It is not a real reservation or payment system.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-grid">
+      <p><strong>Gym Gear Guide</strong><br>A Web Technologies personal project.</p>
+      <p>No login. No database. No personal data.</p>
+    </div>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+TITLE
+Gym Gear Guide
+
+SHORT DESCRIPTION
+An English guide that helps students choose gym equipment and plan a simple training session.
+
+LONG DESCRIPTION
+Gym Gear Guide is a four-page website for students who want a quick plan before they enter a school gym. It explains six equipment choices and shows whether each one is for cardio or strength work.
+
+The main user is a student who is new to the gym or does not know which machine to choose. The Equipment page gives short and clear notes. The Gym Safety page gives simple rules for before, during and after training.
+
+I built the site with semantic HTML, responsive CSS and JavaScript. The equipment filter and the visit planner respond to the user. The planner shows a time, goal and example cost, but it does not save or send any data.
+
+The design uses dark green, light cream and warm yellow. It works on a large screen and on a phone. The same visual style is used in the Open Graph image, app icon and favicon.
+
+GITHUB REPOSITORY
+Replace after the repository is created.
+
+LIVE SITE
+Replace after GitHub Pages is enabled.
+
+STATUS
+Completed
+
